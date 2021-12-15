@@ -1,0 +1,363 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+}
+
+.container {
+	position: relative;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.promo {
+	height: 800px;
+	background: url("../img/main_bg.png") center center/cover no-repeat;
+	padding: 39px 0 62px 0;
+}
+
+.logo .logo-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo .logo-text {
+	color: #ffffff;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 14px;
+}
+
+h1 {
+	margin-top: 53px;
+}
+h2.title {
+	margin-top: 30px;
+}
+.title {
+	color: #f9bf3b;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 31px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.simple .title-big {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 21px;
+}
+
+.promo .promo-text {
+	padding: 0 13px;
+	margin-top: 23px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 21px;
+
+	text-align: center;
+}
+
+.promo .promo-text span {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 21px;
+
+	text-align: center;
+	color: #f9bf3b;
+}
+
+.promo .promo-btn {
+	display: block;
+	margin: 73px auto;
+	width: 313px;
+	height: 72px;
+	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.23);
+	border: 2px solid rgba(0, 0, 0, 0.18);
+	background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+	font-family: RobotoCondensed;
+	font-size: 21px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+	cursor: pointer;
+}
+
+.more {
+	margin-top: 73px;
+}
+
+.more .more-text {
+	color: #ffffff;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.more .more-img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 13px;
+}
+
+.waiting {
+	min-height: 607px;
+	background: #efefef;
+	padding: 85px 0 75px 0;
+}
+
+.waiting .waiting-header,
+.finish .finish-header {
+	color: #252525;
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 23px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.waiting .waiting-divider,
+.finish .finish-divider {
+	background: #f9bf3b;
+	width: 220px;
+	height: 7px;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+.waiting-subheader {
+	color: #4a4a4a;
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 23px;
+	text-align: center;
+	margin-top: 18px;
+}
+
+.waiting .waiting-wrapper {
+	justify-content: space-between;
+	display: flex;
+	margin-top: 45px;
+}
+
+.waiting .waiting-wrapper .waiting-item {
+	width: 339px;
+	text-align: center;
+}
+
+.waiting .waiting-wrapper .waiting-img {
+	width: 100%;
+}
+
+.waiting .waiting-wrapper .waiting-descript {
+	margin-top: 33px;
+	color: #4a4a4a;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+.optimization {
+	min-height: 550px;
+	padding: 102px 0 107px 0;
+}
+
+.optimization .optimization-header {
+	margin-left: 391px;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 30px;
+	color: #299cbd;
+	text-transform: uppercase;
+}
+
+.optimization .optimization-text {
+	margin-left: 391px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	margin-top: 25px;
+}
+
+.optimization .optimization-text span {
+	font-family: Roboto;
+	font-weight: bold;
+}
+
+.optimization .optimization-img {
+	position: absolute;
+	top: -54px;
+	left: -240px;
+	z-index: -1;
+}
+
+.finish {
+	min-height: 447px;
+	padding: 86px 0 79px 0;
+	background: url("../img/second_bg.png") center center/cover no-repeat;
+}
+
+.finish .finish-header {
+	color: white;
+}
+
+.finish .finish-wraper {
+	margin-top: 41px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.finish .finish-wraper .finish-item {
+	width: 204px;
+}
+
+.finish .finish-wraper .finish-round {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 118px;
+	height: 118px;
+	background: #b4e2ff;
+	border-radius: 100%;
+}
+
+.finish .finish-wraper .finish-item .finish-dscrpt {
+	margin-top: 25px;
+	text-align: center;
+	color: #efefef;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.gift {
+	min-height: 639px;
+	background: #efefef;
+}
+
+.gift .gift-img {
+	display: block;
+	margin: 0 auto;
+	padding: 88px 0 45px 0;
+	width: 154px;
+}
+
+.gift .gift-text {
+	display: block;
+	margin: 0 auto;
+	padding: 0 180px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 43px;
+	text-align: center;
+}
+
+.gift .gift-button {
+	display: block;
+	margin: 50px auto;
+	width: 313px;
+	height: 72px;
+	box-shadow: inset 0 0 0 rgb(0 0 0 / 23%);
+	border: 2px solid rgba(0, 0, 0, 0.18);
+	background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+	font-family: Roboto;
+	font-size: 21px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: -1px -1px 0px rgb(0 0 0 / 22%);
+	cursor: pointer;
+}
+
+.webinar {
+	min-height: 511px;
+	margin: 0 auto;
+}
+
+.webinar .webinar-img {
+	display: block;
+	margin: 0 auto;
+	padding: 80px 0 36px 0;
+}
+
+.webinar .webinar-text {
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.webinar .webinar-date {
+	text-align: center;
+	margin-bottom: 25px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #299cbd;
+}
+
+.webinar .webinar-text2 {
+	text-align: center;
+	font-family: Roboto;
+
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 20px;
+}
+
+.footer {
+	height: 170px;
+	background: #1a1a1a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-url {
+	text-align: center;
+	text-decoration-line: underline;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+	color: #888888;
+}
+
+.footer-url .call-us {
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+	color: #888888;
+}
